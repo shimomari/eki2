@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "明朝体", serif;
+    background-image: url('moon.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#coinDisplay, #resultDisplay {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#startButton {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contextResult ul {
+  list-style-type: none;
+  padding-left: 0;
+}
